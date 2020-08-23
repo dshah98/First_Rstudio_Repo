@@ -5,6 +5,7 @@ murders = murders %>% mutate(region = factor(region), rate = total / population 
 save(murders, file = "murders.rda")
 
 
+
 # save: saves objects into rda
 # rds stands for R data (recommanded while saving file)
 

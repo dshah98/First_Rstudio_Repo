@@ -6,6 +6,7 @@ murders %>%
   ggplot(aes(population, total, label = abb, color = region)) + geom_label()
 
 
+
 # The %>% operator is a 'pipe' operator, which passes data from the output of the function to the left and puts it,
 # by default, into the first parameter of the function on the right. There are many types of pipe,
 # of which %>% is the most often used.

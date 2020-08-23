@@ -7,6 +7,7 @@ murders %>% mutate(abb = reorder(abb, rate)) %>%
   coord_flip()
 
 
+
 # mutate() adds new variables and preserves existing ones; transmute() adds new variables and drops existing ones. 
 # New variables overwrite existing variables of the same name. Variables can be removed by setting their value to NULL .
 
